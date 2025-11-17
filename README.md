@@ -79,9 +79,7 @@ IIH_CAI_Intensity_Modeling/
 │   └── COMPREHENSIVE_FINDINGS.json  # Complete results summary
 ├── docs/
 │   ├── methodology/                 # Detailed methodology documentation
-│   ├── figures/                     # Visualization resources
 │   └── USAGE_GUIDE.md              # Step-by-step usage instructions
-├── tests/                           # Unit tests for models
 ├── requirements.txt                 # Python dependencies
 ├── LICENSE                          # MIT License
 └── README.md                        # This file
