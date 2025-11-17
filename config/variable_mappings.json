@@ -1,0 +1,67 @@
+{
+  "icp": [
+    "ICP",
+    "intracranial_pressure",
+    "mean_pressure",
+    "opening_pressure"
+  ],
+  "csf_pressure": [
+    "CSF_pressure",
+    "lumbar_pressure",
+    "LP_pressure"
+  ],
+  "csf_production_rate": [
+    "CSF_formation",
+    "CSF_flow",
+    "secretion_rate"
+  ],
+  "rcsf": [
+    "resistance",
+    "outflow_resistance",
+    "R_csf",
+    "R_out"
+  ],
+  "compliance": [
+    "elastance",
+    "craniospinal_compliance",
+    "C"
+  ],
+  "pmd": [
+    "PMD",
+    "perimetric_mean_deviation",
+    "visual_field_MD"
+  ],
+  "papilledema_grade": [
+    "Frisen_grade",
+    "disc_edema_grade"
+  ],
+  "rnfl": [
+    "RNFL_thickness",
+    "retinal_nerve_fiber_layer"
+  ],
+  "bmi": [
+    "BMI",
+    "body_mass_index"
+  ],
+  "weight_kg": [
+    "weight",
+    "body_weight"
+  ],
+  "testosterone_nmol": [
+    "T",
+    "testosterone_serum"
+  ],
+  "androstenedione_nmol": [
+    "A4",
+    "androstenedione"
+  ],
+  "acz_dose": [
+    "acetazolamide_dose",
+    "ACZ_dose",
+    "diamox_dose"
+  ],
+  "tpm_dose": [
+    "topiramate_dose",
+    "TPM_dose"
+  ]
+}

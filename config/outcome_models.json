@@ -1,0 +1,54 @@
+{
+  "icp_to_pmd": {
+    "model_type": "linear",
+    "equation": "\u0394PMD = \u03b20 + \u03b21*\u0394ICP + \u03b22*weight_loss_pct",
+    "coefficients": {
+      "intercept": 0.5,
+      "icp_coef": 0.15,
+      "weight_loss_coef": 0.08,
+      "baseline_severity_interaction": -0.05
+    },
+    "residual_sd": 0.8,
+    "source": "IIHTT + meta-regression",
+    "n_studies": 3
+  },
+  "icp_to_papilledema_grade": {
+    "model_type": "ordinal_probit",
+    "equation": "Pr(Grade_change) = \u03a6(\u03b20 + \u03b21*\u0394ICP)",
+    "coefficients": {
+      "intercept": -0.5,
+      "icp_coef": 0.25
+    },
+    "thresholds": [
+      -1.5,
+      -0.5,
+      0.5,
+      1.5
+    ],
+    "source": "IIHTT papilledema substudy",
+    "n_studies": 2
+  },
+  "icp_to_headache": {
+    "model_type": "linear",
+    "equation": "\u0394HIT6 = \u03b20 + \u03b21*\u0394ICP",
+    "coefficients": {
+      "intercept": -2.0,
+      "icp_coef": -1.2
+    },
+    "residual_sd": 5.0,
+    "source": "IIHTT + observational studies",
+    "n_studies": 4
+  },
+  "severity_to_surgery_risk": {
+    "model_type": "logistic",
+    "equation": "Pr(Surgery) = logit^-1(\u03b20 + \u03b21*ICP + \u03b22*PMD + \u03b23*papilledema_grade)",
+    "coefficients": {
+      "intercept": -6.0,
+      "icp_coef": 0.15,
+      "pmd_coef": -0.2,
+      "papilledema_coef": 0.4
+    },
+    "source": "IIH natural history studies",
+    "note": "Predicts 6-month surgery risk"
+  }
+}

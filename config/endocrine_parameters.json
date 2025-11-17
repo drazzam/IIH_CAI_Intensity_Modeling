@@ -1,0 +1,49 @@
+{
+  "testosterone_to_nka": {
+    "baseline_multiplier": 1.0,
+    "effect_per_nmol": 0.35,
+    "max_multiplier": 2.0,
+    "source": "O'Reilly 2019 - A09",
+    "mechanism": "Testosterone increases Na+/K+-ATPase activity in choroid plexus"
+  },
+  "testosterone_to_ca": {
+    "baseline_multiplier": 1.0,
+    "effect_per_nmol": 0.25,
+    "max_multiplier": 1.8,
+    "source": "O'Reilly 2019 - A10",
+    "mechanism": "Testosterone upregulates Car2 (CA-II) mRNA expression"
+  },
+  "testosterone_to_nkcc1": {
+    "baseline_multiplier": 1.0,
+    "effect_per_nmol": 0.2,
+    "max_multiplier": 1.5,
+    "source": "Inferred from AR presence in CP",
+    "mechanism": "Androgen receptor-mediated NKCC1 regulation (indirect)"
+  },
+  "hsd11b1_to_nka": {
+    "baseline_multiplier": 1.0,
+    "cortisol_effect": 0.3,
+    "inhibitor_effect": -0.3,
+    "source": "Markey 2017 IIH:DT + cortisol-NKA literature",
+    "mechanism": "11\u03b2-HSD1 amplifies cortisol, which activates NKA"
+  },
+  "glp1ra_to_nka": {
+    "baseline_multiplier": 1.0,
+    "inhibition": -0.25,
+    "source": "Botfield 2017 Sci Transl Med",
+    "mechanism": "GLP-1R agonist reduces Na+/K+-ATPase activity in CP"
+  },
+  "glp1ra_to_hsd11b1": {
+    "baseline_multiplier": 1.0,
+    "inhibition": -0.2,
+    "source": "Inferred from metabolic effects",
+    "mechanism": "GLP-1RA modulates 11\u03b2-HSD1 expression/activity"
+  },
+  "obesity_to_testosterone": {
+    "bmi_threshold": 30,
+    "effect_per_bmi_unit": 0.05,
+    "trunk_fat_effect": 0.08,
+    "source": "O'Reilly 2019 + obesity-androgen literature",
+    "mechanism": "Adipose tissue 11\u03b2-HSD1 and aromatase dysregulation"
+  }
+}

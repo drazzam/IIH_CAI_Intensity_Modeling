@@ -1,0 +1,50 @@
+{
+  "section_a_clinical_trials": {
+    "n_rows": 831,
+    "n_cols": 30,
+    "missing_pct": 79.91,
+    "columns_with_data": 24,
+    "fully_empty_cols": 6,
+    "duplicate_rows": 185
+  },
+  "section_b_human_csf_studies": {
+    "n_rows": 781,
+    "n_cols": 28,
+    "missing_pct": 81.36,
+    "columns_with_data": 25,
+    "fully_empty_cols": 3,
+    "duplicate_rows": 54
+  },
+  "section_c_animal_mechanistic": {
+    "n_rows": 591,
+    "n_cols": 18,
+    "missing_pct": 72.56,
+    "columns_with_data": 13,
+    "fully_empty_cols": 5,
+    "duplicate_rows": 69
+  },
+  "section_d_reviews_guidelines": {
+    "n_rows": 542,
+    "n_cols": 19,
+    "missing_pct": 74.54,
+    "columns_with_data": 14,
+    "fully_empty_cols": 5,
+    "duplicate_rows": 95
+  },
+  "section_e1_endocrine_metabolic": {
+    "n_rows": 417,
+    "n_cols": 34,
+    "missing_pct": 85.6,
+    "columns_with_data": 17,
+    "fully_empty_cols": 17,
+    "duplicate_rows": 94
+  },
+  "section_e2e3_csf_dynamics_models": {
+    "n_rows": 779,
+    "n_cols": 32,
+    "missing_pct": 85.08,
+    "columns_with_data": 32,
+    "fully_empty_cols": 0,
+    "duplicate_rows": 212
+  }
+}

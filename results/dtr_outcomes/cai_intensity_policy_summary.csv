@@ -1,0 +1,13 @@
+policy_id,policy_name,total_cai_dose,icp_reduction_mean,icp_reduction_std,pmd_improvement_mean,pmd_improvement_std,weight_loss_mean,icp_normalized_<lambda>,vision_preserved_<lambda>,surgery_needed_<lambda>,adherence_mean
+P07_TPM_Standard,TPM 100mg (Monotherapy),100,3.466,1.857,-0.904,0.991,3.801,55.0,82.0,36.0,0.788
+P08_TPM_High,TPM 200mg (High Dose),200,5.395,2.164,-1.128,1.077,4.751,72.0,81.0,32.0,0.808
+P01_ACZ_Low,ACZ 500mg (Low Intensity),500,2.223,1.992,-0.444,0.893,1.9,49.0,94.0,45.0,0.838
+P02_ACZ_Standard,ACZ 1g (Standard),1000,3.682,2.153,-0.812,1.012,2.851,54.0,88.0,39.0,0.804
+P09_Combo_Low,ACZ 1g + TPM 100mg (Low Combo),1100,6.651,2.74,-1.404,1.077,3.801,75.0,66.0,41.0,0.786
+P03_ACZ_Moderate,ACZ 1.5g (Moderate),1500,4.034,2.261,-1.125,0.961,2.851,56.0,82.0,41.0,0.817
+P04_ACZ_High,ACZ 2g (High - IIHTT),2000,4.985,2.228,-1.097,0.942,2.851,49.0,86.0,49.0,0.8
+P10_Combo_Standard,ACZ 2g + TPM 100mg (Standard Combo),2100,7.499,2.563,-1.785,1.061,3.801,89.0,66.0,39.0,0.71
+P11_Combo_High,ACZ 2g + TPM 200mg (High Combo),2200,9.533,3.06,-2.249,1.147,4.751,90.0,43.0,44.0,0.719
+P05_ACZ_VeryHigh,ACZ 3g (Very High),3000,5.097,2.454,-1.307,1.023,2.851,67.0,76.0,35.0,0.728
+P12_Combo_Intensive,ACZ 3g + TPM 200mg (Intensive Combo),3200,11.395,3.099,-2.542,1.219,5.701,98.0,30.0,51.0,0.725
+P06_ACZ_MaxTolerated,ACZ 4g (Maximum),4000,5.312,2.578,-1.404,1.037,2.851,73.0,71.0,35.0,0.716

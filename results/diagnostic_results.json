@@ -1,0 +1,30 @@
+{
+  "issue_1_baseline_icp": {
+    "current_model": 13.9,
+    "expected": 28.0,
+    "status": "LOW"
+  },
+  "issue_2_acz_sensitivity": {
+    "current_model": -0.7,
+    "expected": -3.7,
+    "error_mmHg": 3.0,
+    "status": "UNDERPREDICTED"
+  },
+  "issue_3_hsd11b1_pathway": {
+    "required_strength": "40-50% NKA amplification",
+    "current_prior": "30% (too weak)",
+    "status": "CRITICALLY_WEAK"
+  },
+  "root_causes": [
+    "Baseline ICP too low (need higher Rcsf or baseline CSF production)",
+    "Treatment effects on CSF production insufficient",
+    "11\u03b2-HSD1\u2192NKA pathway severely underpowered (need 40-50% vs 30% prior)",
+    "May need nonlinear compliance/ICP relationship for larger dynamic range"
+  ],
+  "required_fixes": [
+    "Increase baseline Rcsf prior: 14\u00b13 mmHg/(mL/min) vs current 10\u00b13",
+    "Strengthen ACZ CA inhibition prior: 50\u00b110% vs current weaker Beta",
+    "Strengthen 11\u03b2-HSD1\u2192NKA prior: 45\u00b110% vs current 30\u00b110%",
+    "Verify transporter fractions sum properly and have correct weights"
+  ]
+}

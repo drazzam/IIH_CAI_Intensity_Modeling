@@ -1,0 +1,42 @@
+{
+  "standard_care": {
+    "icp_reduction_mean": 17.142634767536027,
+    "icp_reduction_std": 4.940628973681481,
+    "pmd_improvement_mean": 7.927836963893485,
+    "pmd_improvement_std": 2.326870517413508,
+    "weight_loss_mean": 1.7390891028752735,
+    "icp_normalized_pct": 96.0,
+    "vision_preserved_pct": 100.0,
+    "surgery_rate_pct": 2.0
+  },
+  "intensive": {
+    "icp_reduction_mean": 20.545552433576702,
+    "icp_reduction_std": 3.994482003695966,
+    "pmd_improvement_mean": 12.073190191339362,
+    "pmd_improvement_std": 2.8736012625447653,
+    "weight_loss_mean": 5.5385613283575585,
+    "icp_normalized_pct": 100.0,
+    "vision_preserved_pct": 100.0,
+    "surgery_rate_pct": 0.0
+  },
+  "endocrine": {
+    "icp_reduction_mean": 20.591234967683082,
+    "icp_reduction_std": 4.01166643618139,
+    "pmd_improvement_mean": 14.003334875224992,
+    "pmd_improvement_std": 3.6423627874821856,
+    "weight_loss_mean": 5.4447017319800555,
+    "icp_normalized_pct": 100.0,
+    "vision_preserved_pct": 100.0,
+    "surgery_rate_pct": 0.0
+  },
+  "weight_first": {
+    "icp_reduction_mean": 20.461614586808434,
+    "icp_reduction_std": 3.986483776231998,
+    "pmd_improvement_mean": 9.799106220394965,
+    "pmd_improvement_std": 2.524408529908557,
+    "weight_loss_mean": 10.820041680386934,
+    "icp_normalized_pct": 100.0,
+    "vision_preserved_pct": 100.0,
+    "surgery_rate_pct": 0.0
+  }
+}

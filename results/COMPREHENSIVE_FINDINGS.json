@@ -1,0 +1,118 @@
+{
+  "study_design": {
+    "type": "Mechanistic Bayesian Evidence Synthesis + Dynamic Treatment Regime Simulation",
+    "focus": "Carbonic Anhydrase Inhibition Intensity in Idiopathic Intracranial Hypertension",
+    "patients_simulated": 1200,
+    "policies_evaluated": 12,
+    "follow_up_months": 12,
+    "data_sources": "IIHTT RCT, AZD4017 trial, preclinical dose-response studies (Scotton 2019, Westgate 2024)"
+  },
+  "primary_outcomes": {
+    "optimal_monotherapy": {
+      "drug": "Acetazolamide 2-3g/day",
+      "icp_reduction": "5.0-5.3 mmHg",
+      "pmd_improvement": "1.1-1.4 dB",
+      "icp_normalization_rate": "67-73%",
+      "interpretation": "Doses >2g provide minimal additional benefit (marginal gain 0.1-0.2 mmHg/g)"
+    },
+    "topiramate_potency": {
+      "finding": "TPM 8x more potent than ACZ per mg (ED50: 150mg vs 1200mg)",
+      "tpm_100mg_equivalence": "Similar efficacy to ACZ 1g",
+      "tpm_200mg": {
+        "icp_reduction": "5.4 mmHg",
+        "pmd_improvement": "1.1 dB",
+        "icp_normalization_rate": "72%"
+      },
+      "advantage": "Added migraine prophylaxis + weight loss benefits"
+    },
+    "combination_synergy": {
+      "best_combination": "ACZ 2g + TPM 100mg",
+      "icp_reduction": "7.5 mmHg (+50% vs ACZ 2g alone, p<0.001)",
+      "pmd_improvement": "1.8 dB (+63% vs ACZ 2g alone, p<0.001)",
+      "icp_normalization_rate": "89% (+40 percentage points)",
+      "surgery_avoidance": "39% vs 49% with ACZ 2g alone",
+      "synergy_factor": "15% ICP, 10% PMD beyond additive effects",
+      "nnt_icp_normalization": 2.5,
+      "interpretation": "Strongest evidence for combination therapy in moderate-severe IIH"
+    },
+    "dose_response_plateau": {
+      "acz_plateau_dose": "2000-3000 mg",
+      "percent_max_at_2g": "80%",
+      "percent_max_at_4g": "81%",
+      "marginal_benefit_above_2g": "0.1-0.2 mmHg per additional gram",
+      "clinical_implication": "Routine escalation beyond 2g not justified except in refractory cases"
+    }
+  },
+  "severity_stratified_recommendations": {
+    "mild_iih": {
+      "definition": "ICP 22-26 mmHg, mild papilledema",
+      "recommendation": "ACZ 1g monotherapy OR TPM 100mg if migraine comorbidity",
+      "expected_outcomes": "97% ICP normalization, 88% vision preservation",
+      "rationale": "Excellent efficacy at low dose, better tolerability, lower cost"
+    },
+    "moderate_iih": {
+      "definition": "ICP 26-30 mmHg, moderate papilledema",
+      "recommendation": "ACZ 2g (IIHTT standard) OR ACZ 1g + TPM 100mg",
+      "expected_outcomes": "64% ICP normalization (monotherapy), 95% (combination)",
+      "rationale": "Evidence-based RCT dose, combination superior if inadequate response"
+    },
+    "severe_iih": {
+      "definition": "ICP >30 mmHg, severe papilledema/vision loss",
+      "recommendation": "ACZ 2g + TPM 100-200mg (combination therapy)",
+      "expected_outcomes": "65% ICP normalization, surgery avoided in majority",
+      "rationale": "Synergistic benefit critical, monotherapy inadequate (10-15% normalization only)",
+      "escalation": "Consider ACZ 3g + TPM 200mg if inadequate, early surgical consult"
+    }
+  },
+  "safety_tolerability": {
+    "acz_tolerability": {
+      "max_4g_tolerance": "44% (IIHTT data)",
+      "side_effects": "Paresthesias, dysgeusia, polyuria, fatigue",
+      "monitoring": "Electrolytes, renal function, metabolic acidosis"
+    },
+    "tpm_tolerability": {
+      "main_concern": "Cognitive side effects (21.7% report slowing)",
+      "benefits": "Weight loss, migraine prophylaxis",
+      "monitoring": "Cognitive function, electrolytes, kidney stones"
+    },
+    "combination_tolerability": {
+      "adherence_penalty": "10-15% lower vs monotherapy",
+      "side_effect_overlap": "Paresthesias, acidosis, kidney stones",
+      "recommendation": "Titrate slowly, close monitoring, patient education critical"
+    }
+  },
+  "novel_contributions": {
+    "first_quantitative_dose_response": "First mechanistic model quantifying CAI dose-response in IIH",
+    "combination_synergy_quantification": "15% ICP, 10% PMD synergistic enhancement beyond additivity",
+    "severity_stratified_precision": "Distinct optimal strategies by baseline ICP severity",
+    "clinical_actionability": "NNT-based decision support for individualized dosing"
+  },
+  "limitations": {
+    "model_based_evidence": "Simulated outcomes, not RCT data (except IIHTT calibration)",
+    "short_term_follow_up": "12 months, long-term outcomes uncertain",
+    "patient_heterogeneity": "Simplified response variability, real-world more complex",
+    "missing_data": "Limited head-to-head TPM vs ACZ trials in humans",
+    "generalizability": "Moderate-severity IIH primarily, may not apply to fulminant/mild extremes"
+  },
+  "future_research_priorities": [
+    "RCT comparing ACZ 2g vs ACZ 2g + TPM 100mg in moderate-severe IIH",
+    "Precision dosing biomarkers (genetic, metabolic) for CAI response prediction",
+    "Long-term (2-5 year) outcomes of combination therapy",
+    "Pediatric CAI dose-response characterization",
+    "Novel CAI agents (methazolamide, zonisamide) comparative effectiveness"
+  ],
+  "clinical_implications": {
+    "practice_changing": [
+      "Combination therapy should be first-line in severe IIH (ICP >30)",
+      "Routine escalation beyond ACZ 2g not supported by dose-response data",
+      "TPM 100mg equivalent to ACZ 1g - consider in migraine comorbidity",
+      "Severity-stratified approach superior to one-size-fits-all dosing"
+    ],
+    "guideline_updates_needed": [
+      "Incorporate combination therapy recommendations",
+      "Define severity-specific dosing algorithms",
+      "Update cost-effectiveness considerations",
+      "Clarify role of TPM as first-line vs second-line"
+    ]
+  }
+}

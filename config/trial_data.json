@@ -1,0 +1,32 @@
+{
+  "iihtt": {
+    "study": "IIHTT_Wall2014",
+    "treatment": "Acetazolamide",
+    "comparator": "Placebo",
+    "n_treatment": 86,
+    "n_control": 79,
+    "baseline_pmd_treatment": -3.53,
+    "baseline_pmd_control": -3.49,
+    "change_pmd_treatment": 1.43,
+    "change_pmd_control": 0.71,
+    "pmd_difference": 0.72,
+    "icp_change_treatment": -3.7,
+    "icp_change_control": -2.0,
+    "weight_loss_treatment": 6.96,
+    "weight_loss_control": 3.2,
+    "papilledema_improvement_treatment": 0.7,
+    "papilledema_improvement_control": 0.46
+  },
+  "azd4017": {
+    "study": "IIHDT_AZD4017",
+    "treatment": "AZD4017_400mg",
+    "comparator": "Placebo",
+    "n_treatment": 27,
+    "n_control": 24,
+    "icp_change_treatment": -3.5,
+    "icp_change_control": -1.2,
+    "icp_difference": -2.3,
+    "weight_change_treatment": -0.5,
+    "weight_change_control": 0.2
+  }
+}
