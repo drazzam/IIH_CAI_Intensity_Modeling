@@ -297,7 +297,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Ahmed Y. Azzam, MD, MEng, DSc(h.c.), FRCP**  
 Research Fellow in Neuroradiology  
 WVU Medicine  
-Expertise: Systematic Reviews, Bayesian Modeling, Evidence Synthesis
 
 ---
 
@@ -309,5 +308,5 @@ Expertise: Systematic Reviews, Bayesian Modeling, Evidence Synthesis
 
 ---
 
-**Last Updated:** November 2024  
+**Last Updated:** 17th November 2025 
 **Version:** 1.0.0
