@@ -179,9 +179,9 @@ Level 4: Clinical Outcomes
 ### Hardware
 - Standard CPU (no GPU required)
 - RAM: 8GB minimum
-- Runtime: ~2 hours for complete analysis
+- Runtime: around 2 hours for complete analysis
 
 ---
 
 **Author:** Ahmed Y. Azzam, MD, MEng, DSc(h.c.), FRCP  
-**Last Updated:** November 2024
+**Last Updated:** 17th November 2025 
