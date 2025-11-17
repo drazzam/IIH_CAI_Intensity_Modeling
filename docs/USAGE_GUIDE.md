@@ -21,7 +21,7 @@ This guide provides step-by-step instructions for using the CAI intensity modeli
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/IIH_CAI_Intensity_Modeling.git
+git clone https://github.com/drazzam/IIH_CAI_Intensity_Modeling.git
 cd IIH_CAI_Intensity_Modeling
 
 # Create virtual environment
@@ -373,5 +373,3 @@ pip install -r requirements.txt
 - **Comprehensive Findings:** `results/COMPREHENSIVE_FINDINGS.json`
 
 ---
-
-**For questions or issues:** Open an issue on GitHub or contact the author.
