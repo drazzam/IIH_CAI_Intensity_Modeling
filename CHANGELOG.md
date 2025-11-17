@@ -2,7 +2,7 @@
 
 All notable changes to the IIH CAI Intensity Modeling project.
 
-## [1.0.0] - 2024-11-17
+## [1.0.0] - 2025-11-17
 
 ### Added
 - Complete dose-response modeling framework for ACZ and TPM
@@ -38,4 +38,4 @@ All notable changes to the IIH CAI Intensity Modeling project.
 **Version:** 1.0.0  
 **Author:** Ahmed Y. Azzam, MD, MEng, DSc(h.c.), FRCP  
 **Institution:** WVU Medicine, Department of Neuroradiology  
-**Date:** November 17, 2024
+**Date:** November 17, 2025
